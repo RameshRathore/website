@@ -1,0 +1,129 @@
+body{
+    background-color: aqua;
+    font-family:sans-serif;
+}
+.navbar{
+    background-color: black;
+    border-radius: 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 20px 20px;
+}
+.navbar ul a{
+    padding: 3px 13px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    background-color:white;
+    border-radius: 5px;
+    color: blue;
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px 17px;
+    width: 129px;
+}
+.search input{
+    width: 200px;
+    height: 20px;
+    cursor: pointer;
+}
+.search #button{
+    float: right;
+    color:black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+.search #button:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+
+#logos{
+    background: greenyellow;
+    width: 50px;
+    height:50px;
+    border-radius: 50px;
+    
+}
+
+.form #input-group{
+    width: 100px;
+    height: 60px;
+    margin: 1px;
+    font-size: 15px;
+
+}
+#input-group #input{
+    margin: 1px;
+    width: 280px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    border-top: white;
+    border-left: white;
+    cursor: pointer;
+    
+}
+.form{
+    background-color: rgb(84, 223, 223);
+    font-family:sans-serif;
+    width: 306px;
+    height: 300px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 50px rgba(0,0,0,0,25);
+    color: black;
+    cursor: pointer;
+}
+textarea #input{
+    border-radius: 5px;
+    border: none;
+    width: 291px;
+}
+.center{
+    margin:auto;
+    padding: 20px 0%;
+
+    border: none;
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+
+}   
+.btn{
+    position: absolute;
+    margin: auto;
+    width: 300px;
+    height: 25px;
+    background-color: rgb(45, 183, 238);
+    color:black ;
+    border-radius: 5px;
+    border: none;
+   
+}
+   .btn:hover{
+       background-color: green;
+       color: white;
+       transition: 1s;
+    
+   } 
